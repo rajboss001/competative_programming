@@ -5,8 +5,12 @@ int main()
 {
     int a;
     cin>>a;
-    for(int i=1;i<=a;i++)
+    if(a<=1)
     {
-        cout<<i<<endl;
+        cout<<"-1"<<endl;
+    }
+    for(int i=2;i<=a;i+=2)
+    {
+         cout<<i<<endl;
     }
 }
